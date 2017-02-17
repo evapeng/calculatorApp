@@ -112,6 +112,7 @@ public class CalcModel extends AppCompatActivity implements View.OnClickListener
                 case "div":
                     if (val2 == 0){
                         Toast.makeText(activity, "Dude, you can't divide by 0", Toast.LENGTH_SHORT).show();
+                        done = true;
                         operators.removeAllElements();
                     }
                     else {
